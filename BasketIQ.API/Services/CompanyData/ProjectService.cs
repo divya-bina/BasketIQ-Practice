@@ -139,7 +139,40 @@ namespace BasketIQ.API.Services.CompanyData
         }
 
 
+        public List<ProjectWithEmployeeCount> GetProjectsWithEmployeeCount()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
 
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var result = new List<ProjectWithEmployeeCount>();
+
+            foreach (var project in data.Projects)
+            {
+                
+                var employeeCount = data.Employees
+                    .Count(e => e.Assigned_Projects
+                    .Any(ap => ap.Project_Id == project.Id));
+
+                result.Add(new ProjectWithEmployeeCount
+                {
+                    Id = project.Id,
+                    Name = project.Name,
+                    Status = project.Status,
+                    Budget = project.Budget,
+                    Employee_Count = employeeCount
+                });
+            }
+
+            if (result.Count == 0) return null;
+            return result;
+        }
 
     } 
 }

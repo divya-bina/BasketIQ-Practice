@@ -1,5 +1,6 @@
 ﻿using BasketIQ.API.Interfaces.CompanyData;
 using BasketIQ.API.Models.CompanyData;
+using System.Net.WebSockets;
 using System.Text.Json;
 
 namespace BasketIQ.API.Services.CompanyData
@@ -192,7 +193,41 @@ namespace BasketIQ.API.Services.CompanyData
         }
 
       
-      
+      public List<Employee> GetEmployeeWithHighSalary()
+        { 
+            var data = LoadRootData();
+
+        var result = data.Employees
+            .Where(e => e.Salary > 100000)
+            .ToList();
+
+            if (result.Count == 0) return null;
+            return result;
+        }
+
+        public List<Employee> GetEmployeesJoinedAfter2022()
+        {
+            var data = LoadRootData();
+
+            var result = data.Employees
+                    .Where(e =>DateTime.Parse(e.Joining_Date).Year > 2022)
+                    .ToList();
+            if (result.Count == 0) return null;
+            return result;
+        }
+
+        public List<Employee> GetExperiencedEmployees()
+        {
+            var data = LoadRootData();
+            var result = data.Employees
+                .Where(e => e.Skills_Mastered.Any(s => s.Years_Experience > 5))
+                .ToList();
+            if (result.Count == 0) return null;
+            return result;
+        }
+
+
+        
 
 
     }

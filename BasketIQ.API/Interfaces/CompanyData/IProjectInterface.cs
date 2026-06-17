@@ -14,5 +14,6 @@ namespace BasketIQ.API.Interfaces.CompanyData
         string DeleteProject(Project request);
 
         List<Project> GetAllActiveStatusProjects();
+        List<ProjectWithEmployeeCount> GetProjectsWithEmployeeCount();
     }
 }

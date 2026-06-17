@@ -131,6 +131,36 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetEmployeesJoinedAfter2022",
+    "RelativePath": "api/Employee/EmployeesJoinedAfter2022",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetEmployeeWithHighSalary",
+    "RelativePath": "api/Employee/EmployeeWithHighSalary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetExperiencedEmployees",
+    "RelativePath": "api/Employee/ExperiencedEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
     "Method": "GetRemoteEmployees",
     "RelativePath": "api/Employee/RemoteEmployees",
     "HttpMethod": "GET",
@@ -215,6 +245,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
+    "Method": "GetProjectsWithEmployeeCount",
+    "RelativePath": "api/Project/ProjectsWithEmployeeCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

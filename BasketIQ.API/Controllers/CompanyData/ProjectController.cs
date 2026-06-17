@@ -84,5 +84,17 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+        [HttpGet("ProjectsWithEmployeeCount")]
+        public IActionResult GetProjectsWithEmployeeCount()
+        {
+            var result = _projectService.GetProjectsWithEmployeeCount();
+
+            if (result == null)
+                return NotFound("No projects found.");
+
+            return Ok(result);
+        }
+
+
     }
 }

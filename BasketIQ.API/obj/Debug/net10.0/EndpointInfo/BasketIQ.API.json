@@ -271,6 +271,42 @@
         }
       }
     },
+    "/api/Employee/EmployeeWithHighSalary": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/EmployeesJoinedAfter2022": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/ExperiencedEmployees": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Project": {
       "get": {
         "tags": [
@@ -401,6 +437,18 @@
       }
     },
     "/api/Project/ActiveProjects": {
+      "get": {
+        "tags": [
+          "Project"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/ProjectsWithEmployeeCount": {
       "get": {
         "tags": [
           "Project"

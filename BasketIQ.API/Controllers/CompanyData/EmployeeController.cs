@@ -1,6 +1,7 @@
 ﻿using BasketIQ.API.Interfaces.CompanyData;
 using BasketIQ.API.Services.CompanyData;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace BasketIQ.API.Controllers.CompanyData
 {
@@ -34,8 +35,8 @@ namespace BasketIQ.API.Controllers.CompanyData
         public IActionResult GetEmployeeDetails()
         {
             var result = _employeeService.GetEmployeeDetails();
-        
-                if (result == null || result.Count == 0)
+
+            if (result == null || result.Count == 0)
                 return NotFound("No employees found.");
 
             return Ok(result);
@@ -82,15 +83,40 @@ namespace BasketIQ.API.Controllers.CompanyData
         public IActionResult GetSeattleEmployees()
         {
             var result = _employeeService.GetSeattleEmployees();
-            if(result == null)
+            if (result == null)
                 return NotFound("No Seattle employees found.");
             return Ok(result);
         }
 
-        
+        [HttpGet("EmployeeWithHighSalary")]
+        public IActionResult GetEmployeeWithHighSalary()
+        {
+            var result = _employeeService.GetEmployeeWithHighSalary();
+            if (result == null)
+                return NotFound("No Employees found with salary greater than 100000.");
+            return Ok(result);
+        }
+
+        [HttpGet("EmployeesJoinedAfter2022")]
+        public IActionResult GetEmployeesJoinedAfter2022()
+        {
+            var result = _employeeService.GetEmployeesJoinedAfter2022();
+            if (result == null)
+                return NotFound("No Employees found who joined after 2022.");
+            return Ok(result);
+        }
+
+        [HttpGet("ExperiencedEmployees")]
+
+        public IActionResult GetExperiencedEmployees()
+            {
+              var result = _employeeService.GetExperiencedEmployees();
+              if (result == null)
+                  return NotFound("No Experienced Employees found.");
+            return Ok(result);
+             }
 
 
-
-    }
+     }
 
 }

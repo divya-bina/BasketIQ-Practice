@@ -149,10 +149,25 @@
     }
 
     public class AssignedProjectWithName
-    {
-     
+       {
         public string Project_Name { get; set; }   
-       
-    }
+       }
 
+    public class ProjectWithEmployeeCount
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Status { get; set; }
+        public double Budget { get; set; }
+        public int Employee_Count { get; set; } 
+    }
+     public class HighestPaidEmployee
+    {
+    public string? Department_Id { get; set; }
+    public string? Department_Name { get; set; }  
+    public string? Id { get; set; }
+    public string? Name { get; set; }
+    public double Salary { get; set; }
+    public string? Role_Title { get; set; }
+      }
 }
