@@ -59,6 +59,16 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.DepartmentController",
+    "Method": "GetHighBudgetDepartments",
+    "RelativePath": "api/Department/HighBudgetDepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.DepartmentController",
     "Method": "UpdateDepartment",
     "RelativePath": "api/Department/update",
     "HttpMethod": "POST",
@@ -75,8 +85,38 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetAllEmployeesWithCategory",
+    "RelativePath": "api/Employee/AllEmployeesWithCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetAllEmployeesWithProject",
+    "RelativePath": "api/Employee/AllEmployeesWithProject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
     "Method": "GetEmployeeDetails",
     "RelativePath": "api/Employee/EmployeeDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetEmployeeDetailsById",
+    "RelativePath": "api/Employee/EmployeeDetailsById",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -90,9 +130,39 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetRemoteEmployees",
+    "RelativePath": "api/Employee/RemoteEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetSeattleEmployees",
+    "RelativePath": "api/Employee/SeattleEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
     "Method": "GetAllProjects",
     "RelativePath": "api/Project",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
+    "Method": "GetAllActiveStatusProjects",
+    "RelativePath": "api/Project/ActiveProjects",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

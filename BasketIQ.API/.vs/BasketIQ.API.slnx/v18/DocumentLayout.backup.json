@@ -1,93 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\BasketIQ\\BasketIQ.API\\",
+  "WorkspaceRootPath": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\controllers\\companydata\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\controllers\\companydata\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\companydata\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\interfaces\\companydata\\idepartmentinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:interfaces\\companydata\\idepartmentinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\services\\companydata\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:services\\companydata\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\services\\companydata\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:services\\companydata\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\controllers\\companydata\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\companydata\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\models\\companydata\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:models\\companydata\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\json\\company-data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:json\\company-data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\services\\companydata\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\services\\companydata\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:services\\companydata\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\controllers\\companydata\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\companydata\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\interfaces\\companydata\\idepartmentinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:interfaces\\companydata\\idepartmentinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\interfaces\\companydata\\iemployeeinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\json\\company-data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:json\\company-data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\services\\companydata\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:services\\companydata\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\services\\companydata\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:services\\companydata\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\interfaces\\companydata\\iemployeeinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:interfaces\\companydata\\iemployeeinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\controllers\\companydata\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\controllers\\companydata\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\companydata\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\controllers\\companydata\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\companydata\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\interfaces\\companydata\\iprojectinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:interfaces\\companydata\\iprojectinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\models\\companydata\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:models\\companydata\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\controllers\\companydata\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\companydata\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\extensions\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\extensions\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:extensions\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\interfaces\\homeinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\interfaces\\homeinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:interfaces\\homeinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\ApiEndpoints.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\ApiEndpoints.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\ApiEndpoints.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\basketiq.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\basketiq.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:basketiq.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq\\basketiq.api\\basketiq.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|d:\\projects\\basketiq-practice\\basketiq-practice\\basketiq.api\\basketiq.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E69B1176-62B6-3C16-042D-3577AED555E5}|BasketIQ.API.csproj|solutionrelative:basketiq.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -105,13 +109,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Program.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-13T20:15:18.435Z",
               "IsPinned": true,
@@ -119,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "company-data.json",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Json\\company-data.json",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Json\\company-data.json",
               "RelativeDocumentMoniker": "Json\\company-data.json",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Json\\company-data.json",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Json\\company-data.json",
               "RelativeToolTip": "Json\\company-data.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAIIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-13T19:16:13.127Z",
               "IsPinned": true,
@@ -133,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ProjectController.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\ProjectController.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\ProjectController.cs",
               "RelativeDocumentMoniker": "Controllers\\CompanyData\\ProjectController.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\ProjectController.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\ProjectController.cs",
               "RelativeToolTip": "Controllers\\CompanyData\\ProjectController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAkwFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-13T19:51:16.996Z",
               "IsPinned": true,
@@ -147,13 +151,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProjectService.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Services\\CompanyData\\ProjectService.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Services\\CompanyData\\ProjectService.cs",
               "RelativeDocumentMoniker": "Services\\CompanyData\\ProjectService.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Services\\CompanyData\\ProjectService.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Services\\CompanyData\\ProjectService.cs",
               "RelativeToolTip": "Services\\CompanyData\\ProjectService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAcwIoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-13T19:52:09.855Z",
               "IsPinned": true,
@@ -163,11 +167,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\DepartmentController.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\CompanyData\\DepartmentController.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\DepartmentController.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\DepartmentController.cs",
               "RelativeToolTip": "Controllers\\CompanyData\\DepartmentController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwE4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T10:33:16.497Z",
               "IsPinned": true,
@@ -175,13 +179,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IDepartmentInterface.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Interfaces\\CompanyData\\IDepartmentInterface.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\CompanyData\\IDepartmentInterface.cs",
               "RelativeDocumentMoniker": "Interfaces\\CompanyData\\IDepartmentInterface.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Interfaces\\CompanyData\\IDepartmentInterface.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\CompanyData\\IDepartmentInterface.cs",
               "RelativeToolTip": "Interfaces\\CompanyData\\IDepartmentInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T10:34:42.88Z",
               "IsPinned": true,
@@ -189,13 +193,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "DepartmentService.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Services\\CompanyData\\DepartmentService.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Services\\CompanyData\\DepartmentService.cs",
               "RelativeDocumentMoniker": "Services\\CompanyData\\DepartmentService.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Services\\CompanyData\\DepartmentService.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Services\\CompanyData\\DepartmentService.cs",
               "RelativeToolTip": "Services\\CompanyData\\DepartmentService.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAIA0wBwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAcwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T10:32:08.158Z",
               "IsPinned": true,
@@ -203,13 +207,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Services\\CompanyData\\EmployeeService.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Services\\CompanyData\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Services\\CompanyData\\EmployeeService.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Services\\CompanyData\\EmployeeService.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Services\\CompanyData\\EmployeeService.cs",
               "RelativeToolTip": "Services\\CompanyData\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAIwMIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T12:29:19.46Z",
               "IsPinned": true,
@@ -218,88 +222,98 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IProjectInterface.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\CompanyData\\IProjectInterface.cs",
+              "RelativeDocumentMoniker": "Interfaces\\CompanyData\\IProjectInterface.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\CompanyData\\IProjectInterface.cs",
+              "RelativeToolTip": "Interfaces\\CompanyData\\IProjectInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T10:17:52.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\EmployeeController.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\CompanyData\\EmployeeController.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\EmployeeController.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\CompanyData\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwFkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T12:23:51.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "IEmployeeInterface.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Interfaces\\CompanyData\\IEmployeeInterface.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\CompanyData\\IEmployeeInterface.cs",
               "RelativeDocumentMoniker": "Interfaces\\CompanyData\\IEmployeeInterface.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Interfaces\\CompanyData\\IEmployeeInterface.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\CompanyData\\IEmployeeInterface.cs",
               "RelativeToolTip": "Interfaces\\CompanyData\\IEmployeeInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T12:22:03.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CompanyController.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\CompanyController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CompanyData\\CompanyController.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\CompanyData\\CompanyController.cs",
-              "RelativeToolTip": "Controllers\\CompanyData\\CompanyController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T19:38:13.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Project.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Models\\CompanyData\\Project.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Models\\CompanyData\\Project.cs",
               "RelativeDocumentMoniker": "Models\\CompanyData\\Project.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Models\\CompanyData\\Project.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Models\\CompanyData\\Project.cs",
               "RelativeToolTip": "Models\\CompanyData\\Project.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAywGcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T11:07:31.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Extensions\\Helper.cs",
-              "RelativeDocumentMoniker": "Extensions\\Helper.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Extensions\\Helper.cs",
-              "RelativeToolTip": "Extensions\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T10:59:49.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyData\\CompanyController.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\CompanyData\\CompanyController.cs",
+              "RelativeToolTip": "Controllers\\CompanyData\\CompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T10:59:47.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-13T19:38:13.37Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Extensions\\Helper.cs",
+              "RelativeDocumentMoniker": "Extensions\\Helper.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Extensions\\Helper.cs",
+              "RelativeToolTip": "Extensions\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T10:59:49.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T10:59:47.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UserProfileController.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\UserProfileController.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\UserProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserProfileController.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Controllers\\UserProfileController.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Controllers\\UserProfileController.cs",
               "RelativeToolTip": "Controllers\\UserProfileController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAADwv0EAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BasketIQ.API.csproj.BuildWithSkipAnalyzers",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers",
               "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers",
               "RelativeToolTip": "obj\\Debug\\net10.0\\BasketIQ.API.csproj.BuildWithSkipAnalyzers",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -319,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "BasketIQ.API.json",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json",
               "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json",
               "RelativeToolTip": "obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -331,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HomeInterface.cs",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Interfaces\\HomeInterface.cs",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\HomeInterface.cs",
               "RelativeDocumentMoniker": "Interfaces\\HomeInterface.cs",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\Interfaces\\HomeInterface.cs",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\Interfaces\\HomeInterface.cs",
               "RelativeToolTip": "Interfaces\\HomeInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ApiEndpoints.json",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\ApiEndpoints.json",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\ApiEndpoints.json",
               "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\ApiEndpoints.json",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\ApiEndpoints.json",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\ApiEndpoints.json",
               "RelativeToolTip": "obj\\Debug\\net10.0\\ApiEndpoints.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -355,11 +369,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BasketIQ.API.OpenApiFiles.cache",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache",
               "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache",
               "RelativeToolTip": "obj\\Debug\\net10.0\\EndpointInfo\\BasketIQ.API.OpenApiFiles.cache",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
@@ -367,22 +381,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BasketIQ.API",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\BasketIQ.API.csproj",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\BasketIQ.API.csproj",
               "RelativeDocumentMoniker": "BasketIQ.API.csproj",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\BasketIQ.API.csproj",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\BasketIQ.API.csproj",
               "RelativeToolTip": "BasketIQ.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-06-13T20:22:28.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "BasketIQ.API.csproj",
-              "DocumentMoniker": "D:\\Projects\\BasketIQ\\BasketIQ.API\\BasketIQ.API.csproj",
+              "DocumentMoniker": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\BasketIQ.API.csproj",
               "RelativeDocumentMoniker": "BasketIQ.API.csproj",
-              "ToolTip": "D:\\Projects\\BasketIQ\\BasketIQ.API\\BasketIQ.API.csproj",
+              "ToolTip": "D:\\Projects\\BasketIQ-Practice\\BasketIQ-Practice\\BasketIQ.API\\BasketIQ.API.csproj",
               "RelativeToolTip": "BasketIQ.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -390,12 +404,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "resources.yaml",
               "DocumentMoniker": "D:\\Projects\\BasketIQ\\.postman\\resources.yaml",
-              "RelativeDocumentMoniker": "..\\.postman\\resources.yaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\BasketIQ\\.postman\\resources.yaml",
               "ToolTip": "D:\\Projects\\BasketIQ\\.postman\\resources.yaml",
-              "RelativeToolTip": "..\\.postman\\resources.yaml",
+              "RelativeToolTip": "..\\..\\..\\BasketIQ\\.postman\\resources.yaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-06-13T19:29:59.893Z"

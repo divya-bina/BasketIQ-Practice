@@ -20,6 +20,7 @@ namespace BasketIQ.API.Services.CompanyData
             return data.Projects;
         }
 
+
         // Get all projects
         public List<Project> GetAllProjects()
         {
@@ -116,7 +117,26 @@ namespace BasketIQ.API.Services.CompanyData
         }
 
 
+        public List<Project> GetAllActiveStatusProjects()
+        {
+            // ✅ Copy same pattern as your other methods
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
 
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var result = data.Projects
+                .Where(p => p.Status == "Active")
+                .ToList();
+
+            if (result.Count == 0) return null;
+            return result;
+        }
 
 
 

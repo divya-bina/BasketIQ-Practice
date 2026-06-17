@@ -12,5 +12,7 @@ namespace BasketIQ.API.Interfaces.CompanyData
         string UpdateDepartment(Department request);
 
         string DeleteDepartment(Department request);
+
+        List<Department> GetHighBudgetDepartments();
     }
 }

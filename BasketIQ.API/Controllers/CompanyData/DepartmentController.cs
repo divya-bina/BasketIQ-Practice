@@ -61,7 +61,7 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
-        // ✅ Add this endpoint
+     
         [HttpDelete("delete")]
         public IActionResult DeleteDepartment([FromBody] Department request)
         {
@@ -76,6 +76,16 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+        [HttpGet("HighBudgetDepartments")]
+        public IActionResult GetHighBudgetDepartments()
+        {
+            var result = _departmentService.GetHighBudgetDepartments();
+
+            if (result == null)
+                return NotFound("No departments found with budget greater than 500000.");
+
+            return Ok(result);
+        }
 
     }
 }

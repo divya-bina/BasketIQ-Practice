@@ -1,4 +1,5 @@
 ﻿using BasketIQ.API.Interfaces.CompanyData;
+using BasketIQ.API.Services.CompanyData;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BasketIQ.API.Controllers.CompanyData
@@ -14,18 +15,82 @@ namespace BasketIQ.API.Controllers.CompanyData
             _employeeService = employeeService;
         }
 
-        [HttpGet("EmployeeDetails")]
-        public IActionResult GetEmployeeDetails(string id)
+        [HttpGet("EmployeeDetailsById")]
+        public IActionResult GetEmployeeDetailsById(string id)
         {
             if (string.IsNullOrWhiteSpace(id))
                 return BadRequest("Employee Id is required.");
 
-            var result = _employeeService.GetEmployeeDetails(id);
+            var result = _employeeService.GetEmployeeDetailsById(id);
 
             if (result == null)
                 return NotFound($"Employee with Id '{id}' not found.");
 
             return Ok(result);
         }
+
+        [HttpGet("EmployeeDetails")]
+
+        public IActionResult GetEmployeeDetails()
+        {
+            var result = _employeeService.GetEmployeeDetails();
+        
+                if (result == null || result.Count == 0)
+                return NotFound("No employees found.");
+
+            return Ok(result);
+        }
+
+
+        [HttpGet("AllEmployeesWithCategory")]
+        public IActionResult GetAllEmployeesWithCategory()
+        {
+            var result = _employeeService.GetAllEmployeesWithCategory();
+
+            if (result == null || result.Count == 0)
+                return NotFound("No employees found.");
+
+            return Ok(result);
+        }
+
+
+        [HttpGet("AllEmployeesWithProject")]
+        public IActionResult GetAllEmployeesWithProject()
+        {
+            var result = _employeeService.GetAllEmployeesWithProject();
+
+            if (result == null || result.Count == 0)
+                return NotFound("No employees found.");
+
+            return Ok(result);
+        }
+
+
+
+        [HttpGet("RemoteEmployees")]
+        public IActionResult GetRemoteEmployees()
+        {
+            var result = _employeeService.GetRemoteEmployees();
+
+            if (result == null)
+                return NotFound("No remote employees found.");
+
+            return Ok(result);
+        }
+
+        [HttpGet("SeattleEmployees")]
+        public IActionResult GetSeattleEmployees()
+        {
+            var result = _employeeService.GetSeattleEmployees();
+            if(result == null)
+                return NotFound("No Seattle employees found.");
+            return Ok(result);
+        }
+
+        
+
+
+
     }
+
 }

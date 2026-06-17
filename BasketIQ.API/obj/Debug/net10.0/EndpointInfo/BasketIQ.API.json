@@ -178,7 +178,19 @@
         }
       }
     },
-    "/api/Employee/EmployeeDetails": {
+    "/api/Department/HighBudgetDepartments": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/EmployeeDetailsById": {
       "get": {
         "tags": [
           "Employee"
@@ -191,6 +203,66 @@
               "type": "string"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/EmployeeDetails": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/AllEmployeesWithCategory": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/AllEmployeesWithProject": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/RemoteEmployees": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Employee/SeattleEmployees": {
+      "get": {
+        "tags": [
+          "Employee"
         ],
         "responses": {
           "200": {
@@ -321,6 +393,18 @@
           },
           "required": true
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/ActiveProjects": {
+      "get": {
+        "tags": [
+          "Project"
+        ],
         "responses": {
           "200": {
             "description": "OK"

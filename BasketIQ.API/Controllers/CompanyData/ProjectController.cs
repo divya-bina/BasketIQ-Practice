@@ -73,6 +73,16 @@ namespace BasketIQ.API.Controllers.CompanyData
 
 
 
+        [HttpGet("ActiveProjects")]
+        public IActionResult GetAllActiveStatusProjects()
+        {
+            var result = _projectService.GetAllActiveStatusProjects();
+
+            if (result == null)
+                return NotFound("No Active Projects found.");
+
+            return Ok(result);
+        }
 
     }
 }

@@ -111,6 +111,27 @@ namespace BasketIQ.API.Services.CompanyData
         }
 
 
+        public List<Department> GetHighBudgetDepartments()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var result = data.Departments
+                .Where(d => d.Budget > 500000)
+                .ToList();
+
+            if (result.Count == 0) return null;
+            return result;
+        }
+
+
 
     }
 }

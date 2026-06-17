@@ -89,7 +89,7 @@
 
     public class EmployeeWithDepartmentResponse
     {
-        public string Id { get; set; }
+        public string Id{ get; set; }
         public string Name { get; set; }
         public string Department_Id { get; set; }
         public string Department_Name { get; set; }
@@ -103,5 +103,56 @@
         public List<AssignedProject> Assigned_Projects { get; set; }
     }
 
+
+
+    public class SkillWithCategory
+    {
+        public string Skill_Name { get; set; }
+
+        public string Category { get; set; }
+       
+    }
+
+    public class EmployeeWithCategoryResponse
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Department_Id { get; set; }
+        public string Department_Name { get; set; }
+        public string Role_Title { get; set; }
+        public double Salary { get; set; }
+        public string City { get; set; }
+        public string Joining_Date { get; set; }
+        public int Days_Worked { get; set; }
+        public bool Is_Remote { get; set; }
+        public List<SkillWithCategory> Skills_Mastered { get; set; }
+        
+        
+
+    }
+
+
+    public class EmployeeWithProjectResponse
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Department_Id { get; set; }
+        public string Department_Name { get; set; }
+        public string Role_Title { get; set; }
+        public double Salary { get; set; }
+        public string City { get; set; }
+        public string Joining_Date { get; set; }
+        public int Days_Worked { get; set; }
+        public bool Is_Remote { get; set; }
+        public List<SkillsMastered> Skills_Mastered { get; set; }
+        public List<AssignedProjectWithName> Assigned_Projects { get; set; } 
+    }
+
+    public class AssignedProjectWithName
+    {
+     
+        public string Project_Name { get; set; }   
+       
+    }
 
 }

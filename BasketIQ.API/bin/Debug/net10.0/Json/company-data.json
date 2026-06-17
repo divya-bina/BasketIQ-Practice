@@ -221,7 +221,7 @@
     {
       "Id": "EMP-102",
       "Name": "Alex Mercer",
-      "Department_Id": "DEPT-01",
+      "Department_Id": "DEPT-03",
       "Role_Title": "Engineering Manager",
       "Salary": 140000,
       "City": "Austin",
@@ -252,7 +252,7 @@
     {
       "Id": "EMP-103",
       "Name": "Elena Rostova",
-      "Department_Id": "DEPT-01",
+      "Department_Id": "DEPT-04",
       "Role_Title": "Senior Software Engineer",
       "Salary": 115000,
       "City": "Boston",
@@ -318,7 +318,7 @@
     {
       "Id": "EMP-105",
       "Name": "Rachel Green",
-      "Department_Id": "DEPT-01",
+      "Department_Id": "DEPT-02",
       "Role_Title": "Software Engineer",
       "Salary": 82000,
       "City": "New York",
@@ -380,7 +380,7 @@
     {
       "Id": "EMP-202",
       "Name": "Chloe Fraser",
-      "Department_Id": "DEPT-02",
+      "Department_Id": "DEPT-03",
       "Role_Title": "Senior Data Scientist",
       "Salary": 125000,
       "City": "San Francisco",
@@ -411,7 +411,7 @@
     {
       "Id": "EMP-203",
       "Name": "Sam Porter",
-      "Department_Id": "DEPT-02",
+      "Department_Id": "DEPT-04",
       "Role_Title": "Data Analyst",
       "Salary": 72000,
       "City": "Denver",
