@@ -507,6 +507,18 @@
           }
         }
       }
+    },
+    "/api/Skills/BackendSkills": {
+      "get": {
+        "tags": [
+          "Skills"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -606,6 +618,9 @@
     },
     {
       "name": "Project"
+    },
+    {
+      "name": "Skills"
     }
   ]
 }

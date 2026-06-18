@@ -314,6 +314,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.SkillsController",
+    "Method": "GetBackendSkills",
+    "RelativePath": "api/Skills/BackendSkills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BasketIQ.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

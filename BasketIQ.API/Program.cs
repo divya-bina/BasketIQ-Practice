@@ -15,6 +15,8 @@ builder.Services.AddScoped<IDepartmentInterface, DepartmentService>();
 
 builder.Services.AddScoped<IEmployeeInterface, EmployeeService>();
 
+builder.Services.AddScoped<ISkillsInterface, SkillsService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
