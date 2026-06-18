@@ -136,6 +136,14 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+        [HttpGet("UnassignedEmployees")]
+        public IActionResult GetUnassignedEmployees()
+        {
+            var result = _employeeService.GetUnassignedEmployees();
+            if (result == null || result.Count == 0)
+                return NotFound("No unassigned employees found.");
+            return Ok(result);
+        }
 
     }
 }

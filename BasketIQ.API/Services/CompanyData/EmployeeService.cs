@@ -264,6 +264,15 @@ namespace BasketIQ.API.Services.CompanyData
             return result;
         }
 
+         public List<Employee> GetUnassignedEmployees()
+        {
+            var data = LoadRootData();
+            var result = data.Employees
+                .Where(e=> e.Assigned_Projects == null || e.Assigned_Projects.Count == 0)
+                .ToList();
+            if (result.Count == 0) return null;
+            return result;
+        }
 
     }
 }

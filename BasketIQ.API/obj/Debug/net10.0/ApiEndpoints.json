@@ -200,6 +200,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetUnassignedEmployees",
+    "RelativePath": "api/Employee/UnassignedEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
     "Method": "GetAllProjects",
     "RelativePath": "api/Project",
