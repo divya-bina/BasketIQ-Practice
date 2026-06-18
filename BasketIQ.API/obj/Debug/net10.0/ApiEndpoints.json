@@ -273,6 +273,16 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
+    "Method": "GetMaintenanceProjects",
+    "RelativePath": "api/Project/MaintenanceProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
     "Method": "GetProjectById",
     "RelativePath": "api/Project/PrjectById",
     "HttpMethod": "GET",

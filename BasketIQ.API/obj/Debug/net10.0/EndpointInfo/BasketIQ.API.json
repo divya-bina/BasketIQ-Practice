@@ -508,6 +508,18 @@
         }
       }
     },
+    "/api/Project/MaintenanceProjects": {
+      "get": {
+        "tags": [
+          "Project"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Skills/BackendSkills": {
       "get": {
         "tags": [

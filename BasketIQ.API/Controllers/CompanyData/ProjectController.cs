@@ -1,6 +1,7 @@
 ﻿using BasketIQ.API.Interfaces.CompanyData;
-using Microsoft.AspNetCore.Mvc;
 using BasketIQ.API.Models.CompanyData;
+using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace BasketIQ.API.Controllers.CompanyData
 {
@@ -104,7 +105,16 @@ namespace BasketIQ.API.Controllers.CompanyData
                 return NotFound("No High Budget Projects found.");
             return Ok(result);
         }
-        
+
+        [HttpGet("MaintenanceProjects")]
+        public IActionResult GetMaintenanceProjects()
+        {
+            var result = _projectService.GetMaintenanceProjects();
+            if (result == null)
+                return NotFound("No Maintenance Projects found.");
+            return Ok(result);
+        }
+
 
 
 

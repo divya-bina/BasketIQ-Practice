@@ -197,7 +197,23 @@ namespace BasketIQ.API.Services.CompanyData
             return result;
         }
 
+        public List<Project> GetMaintenanceProjects()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
 
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+            var result = data.Projects
+                .Where(p => p.Status == "In Maintenance")
+                .ToList();
+            if(result.Count == 0) return null;
+            return result;
+        }
+            
 
     } 
 }
