@@ -141,6 +141,16 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetEmployeesSortedBySalary",
+    "RelativePath": "api/Employee/EmployeesSortedBySalary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
     "Method": "GetEmployeeWithHighSalary",
     "RelativePath": "api/Employee/EmployeeWithHighSalary",
     "HttpMethod": "GET",

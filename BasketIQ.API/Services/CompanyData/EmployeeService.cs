@@ -254,6 +254,15 @@ namespace BasketIQ.API.Services.CompanyData
             return result;
         }
 
+        public List<Employee> GetEmployeesSortedBySalary()
+        {
+            var data = LoadRootData();
+            var result = data.Employees
+                .OrderByDescending(e => e.Salary)
+                .ToList();
+            if (result.Count == 0) return null;
+            return result;
+        }
 
 
     }

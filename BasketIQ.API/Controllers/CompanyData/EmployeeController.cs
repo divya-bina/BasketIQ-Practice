@@ -127,6 +127,15 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+        [HttpGet("EmployeesSortedBySalary")]
+        public IActionResult GetEmployeesSortedBySalary()
+        {
+            var result = _employeeService.GetEmployeesSortedBySalary();
+            if (result == null || result.Count == 0)
+                return NotFound("No employees found.");
+            return Ok(result);
+        }
+
 
     }
 }
