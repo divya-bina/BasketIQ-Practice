@@ -161,6 +161,16 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "GetHighestPaidEmployeePerDepartment",
+    "RelativePath": "api/Employee/HighestPaidEmployeePerDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
     "Method": "GetRemoteEmployees",
     "RelativePath": "api/Employee/RemoteEmployees",
     "HttpMethod": "GET",

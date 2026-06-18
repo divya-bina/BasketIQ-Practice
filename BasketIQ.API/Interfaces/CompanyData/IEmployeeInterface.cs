@@ -14,8 +14,7 @@ namespace BasketIQ.API.Interfaces.CompanyData
         List<Employee> GetEmployeeWithHighSalary();
         List<Employee> GetEmployeesJoinedAfter2022();
         List<Employee> GetExperiencedEmployees();
-     
-
+        List<HighestPaidEmployee> GetHighestPaidEmployeePerDepartment();
 
 
 

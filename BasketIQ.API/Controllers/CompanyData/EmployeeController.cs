@@ -109,14 +109,24 @@ namespace BasketIQ.API.Controllers.CompanyData
         [HttpGet("ExperiencedEmployees")]
 
         public IActionResult GetExperiencedEmployees()
-            {
-              var result = _employeeService.GetExperiencedEmployees();
-              if (result == null)
-                  return NotFound("No Experienced Employees found.");
+        {
+            var result = _employeeService.GetExperiencedEmployees();
+            if (result == null)
+                return NotFound("No Experienced Employees found.");
             return Ok(result);
-             }
+        }
+
+        [HttpGet("HighestPaidEmployeePerDepartment")]
+        public IActionResult GetHighestPaidEmployeePerDepartment()
+        {
+            var result = _employeeService.GetHighestPaidEmployeePerDepartment();
+
+            if (result == null)
+                return NotFound("No employees found.");
+
+            return Ok(result);
+        }
 
 
-     }
-
+    }
 }

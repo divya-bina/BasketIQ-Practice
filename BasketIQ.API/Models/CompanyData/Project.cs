@@ -161,13 +161,15 @@
         public double Budget { get; set; }
         public int Employee_Count { get; set; } 
     }
-     public class HighestPaidEmployee
+    public class HighestPaidEmployee
     {
-    public string? Department_Id { get; set; }
-    public string? Department_Name { get; set; }  
-    public string? Id { get; set; }
-    public string? Name { get; set; }
-    public double Salary { get; set; }
-    public string? Role_Title { get; set; }
-      }
+        public string? Department_Id { get; set; }
+        public string? Department_Name { get; set; }
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public double Salary { get; set; }
+        public string? Role_Title { get; set; }
+    }
+
+
 }

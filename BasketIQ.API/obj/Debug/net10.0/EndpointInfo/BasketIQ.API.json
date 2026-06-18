@@ -307,6 +307,18 @@
         }
       }
     },
+    "/api/Employee/HighestPaidEmployeePerDepartment": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Project": {
       "get": {
         "tags": [

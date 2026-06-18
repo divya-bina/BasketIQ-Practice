@@ -226,8 +226,34 @@ namespace BasketIQ.API.Services.CompanyData
             return result;
         }
 
+        public List<HighestPaidEmployee> GetHighestPaidEmployeePerDepartment()
+        {
+            var data = LoadRootData();
 
-        
+            var result = data.Employees
+                .GroupBy(e => e.Department_Id)
+                .Select(group =>
+                {
+                    var topEmployee = group.OrderByDescending(e => e.Salary).First();
+
+                    var department = data.Departments.FirstOrDefault(d => d.Id == topEmployee.Department_Id);
+
+                    return new HighestPaidEmployee
+                    {
+                        Department_Id = topEmployee.Department_Id,
+                        Department_Name = department != null ? department.Name : "Unknown",
+                        Id = topEmployee.Id,
+                        Name = topEmployee.Name,
+                        Salary = topEmployee.Salary,
+                        Role_Title = topEmployee.Role_Title
+                    };
+                })
+                .ToList();
+
+            if (result.Count == 0) return null;
+            return result;
+        }
+
 
 
     }
