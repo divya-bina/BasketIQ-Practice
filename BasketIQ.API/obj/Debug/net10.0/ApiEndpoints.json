@@ -263,6 +263,16 @@
   },
   {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
+    "Method": "GetHighBudgetProject",
+    "RelativePath": "api/Project/HighBudgetProjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
     "Method": "GetProjectById",
     "RelativePath": "api/Project/PrjectById",
     "HttpMethod": "GET",

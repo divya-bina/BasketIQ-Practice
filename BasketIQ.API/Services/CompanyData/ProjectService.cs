@@ -1,5 +1,6 @@
 ﻿using BasketIQ.API.Interfaces.CompanyData;
 using BasketIQ.API.Models.CompanyData;
+using System.Net.WebSockets;
 using System.Text.Json;
 namespace BasketIQ.API.Services.CompanyData
 {
@@ -155,7 +156,7 @@ namespace BasketIQ.API.Services.CompanyData
 
             foreach (var project in data.Projects)
             {
-                
+
                 var employeeCount = data.Employees
                     .Count(e => e.Assigned_Projects
                     .Any(ap => ap.Project_Id == project.Id));
@@ -173,6 +174,30 @@ namespace BasketIQ.API.Services.CompanyData
             if (result.Count == 0) return null;
             return result;
         }
+
+
+
+        public List<Project> GetHighBudgetProject()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var result = data.Projects
+                .Where(p => p.Budget > 300000)
+                .ToList();
+
+            if (result.Count == 0) return null;
+            return result;
+        }
+
+
 
     } 
 }

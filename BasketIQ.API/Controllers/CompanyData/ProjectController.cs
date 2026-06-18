@@ -96,5 +96,17 @@ namespace BasketIQ.API.Controllers.CompanyData
         }
 
 
+        [HttpGet("HighBudgetProjects")]
+        public IActionResult GetHighBudgetProject()
+        {
+            var result = _projectService.GetHighBudgetProject();
+            if (result == null)
+                return NotFound("No High Budget Projects found.");
+            return Ok(result);
+        }
+        
+
+
+
     }
 }

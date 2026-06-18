@@ -15,5 +15,7 @@ namespace BasketIQ.API.Interfaces.CompanyData
 
         List<Project> GetAllActiveStatusProjects();
         List<ProjectWithEmployeeCount> GetProjectsWithEmployeeCount();
+
+        List<Project> GetHighBudgetProject();
     }
 }
