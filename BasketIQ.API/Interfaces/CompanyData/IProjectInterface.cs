@@ -19,5 +19,7 @@ namespace BasketIQ.API.Interfaces.CompanyData
         List<Project> GetHighBudgetProject();
 
         List<Project> GetMaintenanceProjects();
+        string UpdateProjectStatus(string id, string status);
+        string UpdateProjectName(string id, string name);
     }
 }

@@ -132,6 +132,33 @@ namespace BasketIQ.API.Services.CompanyData
         }
 
 
+        public string UpdateDepartmentBudget(string id,double budget)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                WriteIndented = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var department = data.Departments.FirstOrDefault(d => d.Id == id);
+
+          
+            if (department == null) return null;
+
+            department.Budget = budget;
+
+            var updatedJson = JsonSerializer.Serialize(data, options);
+            File.WriteAllText(filePath, updatedJson);
+
+            return $"Department '{department.Name}' Budget Updated to '{budget}' Successfully....!!!!";
+        }
+
+
 
     }
 }

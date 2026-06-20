@@ -84,6 +84,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.DepartmentController",
+    "Method": "UpdateDepartmentBudget",
+    "RelativePath": "api/Department/UpdateDepartmentBudget",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "budget",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
     "Method": "GetAllEmployeesWithCategory",
     "RelativePath": "api/Employee/AllEmployeesWithCategory",
@@ -210,6 +231,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "UpdateEmployeeCity",
+    "RelativePath": "api/Employee/UpdateCity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.EmployeeController",
+    "Method": "UpdateEmployeeRemoteStatus",
+    "RelativePath": "api/Employee/UpdateIsRemoteStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isRemote",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
     "Method": "GetAllProjects",
     "RelativePath": "api/Project",
@@ -319,6 +382,48 @@
         "Name": "request",
         "Type": "BasketIQ.API.Models.CompanyData.Project",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
+    "Method": "UpadateProjectName",
+    "RelativePath": "api/Project/UpdateProjectName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketIQ.API.Controllers.CompanyData.ProjectController",
+    "Method": "UpdateProjectStatus",
+    "RelativePath": "api/Project/UpdateStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -115,8 +115,31 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+        [HttpPost("UpdateStatus")]
+        public IActionResult UpdateProjectStatus(string id, string status)
+        {
+            if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(status))
+                return BadRequest("Project Id and Status are required.");
+
+            var result = _projectService.UpdateProjectStatus(id, status);
+
+            if (result == null)
+                return NotFound($"Project with Id '{id}' not found.");
+
+            return Ok(result);
+        }
 
 
+        [HttpPost("UpdateProjectName")]
+        public IActionResult UpadateProjectName(string id, string name)
+        {
+            if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(name))
+                return BadRequest("Project Id and Name are required.");
+            var result = _projectService.UpdateProjectName(id, name);
+            if (result == null)
+                return NotFound($"Project with Id '{id}' not found.");
+            return Ok(result);
+        }
 
     }
 }

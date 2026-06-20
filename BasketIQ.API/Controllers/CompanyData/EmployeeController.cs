@@ -145,5 +145,36 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+
+        [HttpPost("UpdateCity")]
+        public IActionResult UpdateEmployeeCity(string id, string city)
+        {
+            if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(city))
+                return BadRequest("Employee Id and City are required.");
+
+            var result = _employeeService.UpdateEmployeeCity(id, city);
+
+            if (result == null)
+                return NotFound($"Employee with Id '{id}' not found.");
+
+            return Ok(result);
+        }
+
+        [HttpPost("UpdateIsRemoteStatus")]
+        public IActionResult UpdateEmployeeRemoteStatus(string id, bool isRemote)
+        {
+           
+            if (string.IsNullOrWhiteSpace(id))
+                return BadRequest("Employee Id is required.");
+
+            var result = _employeeService.UpdateEmployeeRemoteStatus(id, isRemote);
+
+            if (result == null)
+                return NotFound($"Employee with Id '{id}' not found.");
+
+            return Ok(result);
+        }
+
+
     }
 }

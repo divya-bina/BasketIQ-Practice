@@ -87,5 +87,19 @@ namespace BasketIQ.API.Controllers.CompanyData
             return Ok(result);
         }
 
+        [HttpGet("UpdateDepartmentBudget")]
+        public IActionResult UpdateDepartmentBudget(string id, double budget)
+        {
+            if (string.IsNullOrWhiteSpace(id))
+                return BadRequest("Department Id is required.");
+            var result = _departmentService.UpdateDepartmentBudget(id, budget);
+            if (result == null)
+                return NotFound($"Department with Id '{id}' not found.");
+            return Ok(result);
+        }
+
+
+
+
     }
 }

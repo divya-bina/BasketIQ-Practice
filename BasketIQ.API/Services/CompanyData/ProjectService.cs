@@ -22,13 +22,12 @@ namespace BasketIQ.API.Services.CompanyData
         }
 
 
-        // Get all projects
+   
         public List<Project> GetAllProjects()
         {
             return LoadProjects();
         }
 
-        // Get single project by id e.g PRJ-901
         public Project GetProjectById(string id)
         {
             var projects = LoadProjects();
@@ -58,7 +57,7 @@ namespace BasketIQ.API.Services.CompanyData
             project.Budget = request.Budget;
             project.Technologies_Used = request.Technologies_Used;
 
-            // Save back to JSON file
+            
             var updatedJson = JsonSerializer.Serialize(data, options);
             File.WriteAllText(filePath, updatedJson);
 
@@ -106,7 +105,7 @@ namespace BasketIQ.API.Services.CompanyData
 
             var project = data.Projects.FirstOrDefault(p => p.Id == request.Id);
 
-            // If project not found return null
+            
             if (project == null) return null;
 
             data.Projects.Remove(project);
@@ -120,7 +119,7 @@ namespace BasketIQ.API.Services.CompanyData
 
         public List<Project> GetAllActiveStatusProjects()
         {
-            // ✅ Copy same pattern as your other methods
+            
             var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
             var jsonString = File.ReadAllText(filePath);
 
@@ -213,7 +212,65 @@ namespace BasketIQ.API.Services.CompanyData
             if(result.Count == 0) return null;
             return result;
         }
-            
+
+
+        public string UpdateProjectStatus(string id, string status)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                WriteIndented = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var project = data.Projects.FirstOrDefault(p => p.Id == id);
+
+            if (project == null) return null;
+
+         
+            project.Status = status;
+
+            var updatedJson = JsonSerializer.Serialize(data, options);
+            File.WriteAllText(filePath, updatedJson);
+
+            return $"Project '{project.Name}' Status Updated to '{status}' Successfully....!!!!";
+        }
+
+        public string UpdateProjectName(string id, string name)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                WriteIndented = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var project = data.Projects.FirstOrDefault(p => p.Id == id);
+
+            if (project == null) return null;
+
+
+            project.Name = name;
+
+            var updatedJson = JsonSerializer.Serialize(data, options);
+            File.WriteAllText(filePath, updatedJson);
+
+            return $"Project '{project.Name}' Name Updated to '{name}' Successfully....!!!!";
+        }
+
+
+
+
+
+
 
     } 
 }

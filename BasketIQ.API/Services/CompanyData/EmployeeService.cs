@@ -24,14 +24,13 @@ namespace BasketIQ.API.Services.CompanyData
         {
             var data = LoadRootData();
 
-            // Step 1 - Get Employee
             var employee = data.Employees.FirstOrDefault(e => e.Id == id);
             if (employee == null) return null;
 
-            // Step 2 - Get Department Name
+           
             var department = data.Departments.FirstOrDefault(d => d.Id == employee.Department_Id);
 
-            // Step 3 - Return Employee with Department Name
+            
             return new EmployeeWithDepartmentResponse
             {
                 Id = employee.Id,
@@ -273,6 +272,60 @@ namespace BasketIQ.API.Services.CompanyData
             if (result.Count == 0) return null;
             return result;
         }
+
+
+        public string UpdateEmployeeCity(string id, string city)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                WriteIndented = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var employee = data.Employees.FirstOrDefault(e => e.Id == id);
+
+
+            if (employee == null) return null;
+
+            employee.City = city;
+
+            var updatedJson = JsonSerializer.Serialize(data, options);
+            File.WriteAllText(filePath, updatedJson);
+
+            return $"Employee '{employee.Name}' City Updated to '{city}' Successfully....!!!!";
+        }
+
+        public string UpdateEmployeeRemoteStatus(string id, bool isRemote)
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Json", "company-data.json");
+            var jsonString = File.ReadAllText(filePath);
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                WriteIndented = true
+            };
+
+            var data = JsonSerializer.Deserialize<RootData>(jsonString, options);
+
+            var employee = data.Employees.FirstOrDefault(e => e.Id == id);
+
+
+            if (employee == null) return null;
+
+            employee.Is_Remote = isRemote;
+
+            var updatedJson = JsonSerializer.Serialize(data, options);
+            File.WriteAllText(filePath, updatedJson);
+
+            return $"Employee '{employee.Name}' City Updated to '{isRemote}' Successfully....!!!!";
+        }
+
 
     }
 }

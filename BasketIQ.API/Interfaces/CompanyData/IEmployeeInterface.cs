@@ -17,6 +17,8 @@ namespace BasketIQ.API.Interfaces.CompanyData
         List<HighestPaidEmployee> GetHighestPaidEmployeePerDepartment();
         List<Employee> GetEmployeesSortedBySalary();
         List<Employee> GetUnassignedEmployees();
+        string UpdateEmployeeCity(string id, string city);
+        string UpdateEmployeeRemoteStatus(string id, bool isRemote);
 
 
 
